@@ -3,6 +3,7 @@ interface ISelectOptions{
     value: string;
     color: string;
 }
+
 export const selectOptions: ISelectOptions[] = [
   { text: "Comida", value: "food", color: '#ff00004d'},
   { text: "Transporte", value: "transport", color: '#9900ff57'},
